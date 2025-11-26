@@ -13,7 +13,8 @@ namespace EfCore.data
         public DbSet<User> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=sql.ects;Database=DbMenshikov;User Id=student_12;Password=student_12;TrustServerCertificate=True;");
+            //optionsBuilder.UseSqlServer("Server=sql.ects;Database=DbMenshikov;User Id=student_12;Password=student_12;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=HomeDB;Trusted_Connection=True;TrustServerCertificate=True;");
         }
     }
 }

@@ -1,42 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\",
+  "WorkspaceRootPath": "C:\\Users\\mensh\\Desktop\\prak12home\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\pages\\userchangepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\userchangepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\pages\\userchangepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\mensh\\desktop\\prak12home\\efcore\\pages\\userchangepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\userchangepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\mensh\\desktop\\prak12home\\efcore\\pages\\userchangepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\userchangepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\mensh\\desktop\\prak12home\\efcore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\mensh\\desktop\\prak12home\\efcore\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\st310-12\\documents\\menshikovall\\ef\\efcore\\efcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|c:\\users\\mensh\\desktop\\prak12home\\efcore\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D258ADF5-0F70-4902-8B71-922E445CD7DC}|EfCore\\EfCore.csproj|solutionrelative:efcore\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,116 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Service\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "EfCore\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Service\\UserService.cs",
               "RelativeToolTip": "EfCore\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:59:32.431Z",
+              "WhenOpened": "2025-11-26T17:36:22.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserChangePage.xaml",
+              "DocumentMoniker": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\UserChangePage.xaml",
+              "RelativeDocumentMoniker": "EfCore\\Pages\\UserChangePage.xaml",
+              "ToolTip": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\UserChangePage.xaml",
+              "RelativeToolTip": "EfCore\\Pages\\UserChangePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T15:45:06.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseDbService.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Service\\BaseDbService.cs",
-              "RelativeDocumentMoniker": "EfCore\\Service\\BaseDbService.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Service\\BaseDbService.cs",
-              "RelativeToolTip": "EfCore\\Service\\BaseDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:54:54.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EfCore\\data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\data\\AppDbContext.cs",
-              "RelativeToolTip": "EfCore\\data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:10:28.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserChangePage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\UserChangePage.xaml",
-              "RelativeDocumentMoniker": "EfCore\\Pages\\UserChangePage.xaml",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\UserChangePage.xaml",
-              "RelativeToolTip": "EfCore\\Pages\\UserChangePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T04:07:04.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UserChangePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\UserChangePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\UserChangePage.xaml.cs",
               "RelativeDocumentMoniker": "EfCore\\Pages\\UserChangePage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\UserChangePage.xaml.cs",
+              "ToolTip": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\UserChangePage.xaml.cs",
               "RelativeToolTip": "EfCore\\Pages\\UserChangePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:51:01.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\data\\User.cs",
-              "RelativeDocumentMoniker": "EfCore\\data\\User.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\data\\User.cs",
-              "RelativeToolTip": "EfCore\\data\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:14:44.175Z",
+              "WhenOpened": "2025-11-26T15:36:18.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "EfCore\\Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\MainPage.xaml",
               "RelativeToolTip": "EfCore\\Pages\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T04:05:01.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "EfCore\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "EfCore\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:43:29.838Z",
+              "WhenOpened": "2025-11-26T15:44:57.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "EfCore\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore\\MainWindow.xaml",
-              "RelativeToolTip": "EfCore\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T03:46:49.947Z",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "EfCore\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mensh\\Desktop\\prak12home\\EfCore\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "EfCore\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:34:36.535Z",
               "EditorCaption": ""
             }
           ]

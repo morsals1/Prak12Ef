@@ -1,28 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EfCore.Service;
+using EfCore.data;
+using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace EfCore.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для MainPage.xaml
-    /// </summary>
     public partial class MainPage : Page
     {
+        public UserService Service { get; set; } = new UserService();
+        public User? SelectedUser { get; set; }
+
         public MainPage()
         {
             InitializeComponent();
+            DataContext = this;
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
@@ -32,7 +24,36 @@ namespace EfCore.Pages
 
         private void DelButton_Click(object sender, RoutedEventArgs e)
         {
+            if (SelectedUser == null)
+            {
+                MessageBox.Show("Выберите пользователя для удаления!", "Ошибка",
+                    MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
 
+            if (MessageBox.Show($"Вы действительно хотите удалить пользователя {SelectedUser.Login}?", "Подтверждение",
+                MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    Service.Remove(SelectedUser);
+                    MessageBox.Show("Пользователь удален", "Успешно",
+                        MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ошибка при удалении: {ex.Message}", "Ошибка",
+                        MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+        private void EditUser_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if (SelectedUser != null)
+            {
+                NavigationService.Navigate(new UserChangePage(SelectedUser));
+            }
         }
     }
 }

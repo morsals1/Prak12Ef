@@ -4,31 +4,69 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EfCore.Pages"
+      xmlns:validators="clr-namespace:EfCore.Validators"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
       Title="UserChangePage">
 
     <Grid>
         <StackPanel>
-            <StackPanel>
-                <Label>Логин</Label>
-                <TextBox/>
+            <StackPanel Style="{StaticResource FormGroup}">
+                <Label Content="Логин *" Style="{StaticResource FormLabel}"/>
+                <TextBox x:Name="LoginTextBox" 
+                        Style="{StaticResource ValidatableTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="CurrentUser.Login" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:RequiredRule/>
+                                <validators:MinLengthRule MinLength="5"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
-            <StackPanel>
-                <Label>Имя</Label>
-                <TextBox/>
+
+            <StackPanel Style="{StaticResource FormGroup}">
+                <Label Content="Имя *" Style="{StaticResource FormLabel}"/>
+                <TextBox x:Name="NameTextBox" 
+                        Style="{StaticResource ValidatableTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="CurrentUser.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:RequiredRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
-            <StackPanel>
-                <Label>Почта</Label>
-                <TextBox/>
+
+            <StackPanel Style="{StaticResource FormGroup}">
+                <Label Content="Email *" Style="{StaticResource FormLabel}"/>
+                <TextBox x:Name="EmailTextBox" 
+                        Style="{StaticResource ValidatableTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="CurrentUser.Email" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:RequiredRule/>
+                                <validators:EmailRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
             </StackPanel>
-            <StackPanel>
-                <Label>Пароль</Label>
-                <PasswordBox/>
+
+            <StackPanel Style="{StaticResource FormGroup}">
+                <Label Content="Пароль *" Style="{StaticResource FormLabel}"/>
+                <PasswordBox x:Name="PasswordBox" 
+                Style="{StaticResource ValidatablePasswordBox}"
+                PasswordChanged="PasswordBox_PasswordChanged"/>
+                <TextBlock x:Name="PasswordErrorText" Style="{StaticResource ValidationErrorText}"/>
             </StackPanel>
-            <StackPanel>
-                <Button>Сохранить в БД</Button>
-                <Button Click="Button_Click">Назад</Button>
+
+            <StackPanel Style="{StaticResource ActionPanel}">
+                <Button Click="SaveButton_Click" Content="Сохранить" 
+                        Style="{StaticResource PrimaryButton}"/>
+                <Button Click="BackButton_Click" Content="Назад" 
+                        Style="{StaticResource SecondaryButton}"/>
             </StackPanel>
         </StackPanel>
     </Grid>
