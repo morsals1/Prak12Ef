@@ -27,8 +27,7 @@
 
             <StackPanel Style="{StaticResource FormGroup}">
                 <Label Content="Имя *" Style="{StaticResource FormLabel}"/>
-                <TextBox x:Name="NameTextBox" 
-                        Style="{StaticResource ValidatableTextBox}">
+                <TextBox x:Name="NameTextBox" Style="{StaticResource ValidatableTextBox}">
                     <TextBox.Text>
                         <Binding Path="CurrentUser.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
@@ -40,9 +39,21 @@
             </StackPanel>
 
             <StackPanel Style="{StaticResource FormGroup}">
+                <Label Content="Дата создания *" Style="{StaticResource FormLabel}"/>
+                <TextBox x:Name="DateTextBox" Style="{StaticResource ValidatableTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="CurrentUser.CreatedAt" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:DateRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource FormGroup}">
                 <Label Content="Email *" Style="{StaticResource FormLabel}"/>
-                <TextBox x:Name="EmailTextBox" 
-                        Style="{StaticResource ValidatableTextBox}">
+                <TextBox x:Name="EmailTextBox" Style="{StaticResource ValidatableTextBox}">
                     <TextBox.Text>
                         <Binding Path="CurrentUser.Email" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>

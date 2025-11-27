@@ -3,6 +3,7 @@ using EfCore.data;
 using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.ComponentModel;
 
 namespace EfCore.Pages
 {
@@ -15,6 +16,12 @@ namespace EfCore.Pages
         {
             InitializeComponent();
             DataContext = this;
+            Loaded += MainPage_Loaded;
+        }
+
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            Service.GetAll();
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)

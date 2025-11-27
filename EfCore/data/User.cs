@@ -15,7 +15,8 @@ namespace EfCore.data
         private string _name;
         private string _email;
         private string _password;
-        private DateOnly _createdAt;
+        private string _createdAt;
+
 
         public int Id
         {
@@ -47,7 +48,7 @@ namespace EfCore.data
             set => SetProperty(ref _password, value);
         }
 
-        public DateOnly CreatedAt
+        public string CreatedAt
         {
             get => _createdAt;
             set => SetProperty(ref _createdAt, value);

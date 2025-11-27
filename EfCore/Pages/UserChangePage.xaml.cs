@@ -17,26 +17,16 @@ namespace EfCore.Pages
         public UserChangePage(User? editUser = null)
         {
             InitializeComponent();
-
+            DataContext = this;
             if (editUser != null)
             {
                 CurrentUser = editUser;
                 IsEdit = true;
-                DataContext = this;
-            }
-            else
-            {
-                CurrentUser.CreatedAt = DateOnly.FromDateTime(DateTime.Now);
-                DataContext = this;
             }
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            LoginTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
-            NameTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
-            EmailTextBox.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
-
             if (Validation.GetHasError(LoginTextBox) ||
                 Validation.GetHasError(NameTextBox) ||
                 Validation.GetHasError(EmailTextBox) ||
@@ -44,6 +34,13 @@ namespace EfCore.Pages
             {
                 MessageBox.Show("Исправьте ошибки в форме", "Ошибка валидации",
                     MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            DateOnly date = DateOnly.Parse(CurrentUser.CreatedAt);
+            if (date < DateOnly.FromDateTime(DateTime.Now))
+            {
+                MessageBox.Show("Дата создания не может быть ранее текущей даты", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 

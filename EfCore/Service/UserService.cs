@@ -12,7 +12,7 @@ namespace EfCore.Service
     {
         private readonly AppDbContext _db = BaseDbService.Instance.Context;
 
-        public ObservableCollection<User> Users { get; set; } = new();
+        public ObservableCollection<User> Users { get; set; } = new ObservableCollection<User>();
 
         public UserService()
         {
@@ -27,7 +27,7 @@ namespace EfCore.Service
                 Name = user.Name,
                 Email = user.Email,
                 Password = user.Password,
-                CreatedAt = DateOnly.FromDateTime(DateTime.Now)
+                CreatedAt = user.CreatedAt
             };
             _db.Add<User>(_user);
             Commit();
