@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T0Is+4vcGXA=",
+  "dgSpecHash": "hAT5YkljFYY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\ef\\EfCore\\EfCore.csproj",
+  "projectFilePath": "C:\\Users\\st310-12\\Documents\\MenshikovAll\\prak13\\EfCore\\EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\st310-12\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\st310-12\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

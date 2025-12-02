@@ -1,4 +1,6 @@
 ﻿using EfCore.data;
+using Microsoft.EntityFrameworkCore;
+
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -27,7 +29,10 @@ namespace EfCore.Service
                 Name = user.Name,
                 Email = user.Email,
                 Password = user.Password,
-                CreatedAt = user.CreatedAt
+                CreatedAt = user.CreatedAt,
+                Profile = user.Profile,
+                RoleId = user.RoleId,
+                Role = user.Role
             };
             _db.Add<User>(_user);
             Commit();
@@ -38,7 +43,11 @@ namespace EfCore.Service
 
         public void GetAll()
         {
-            var users = _db.Users.ToList();
+            var users = _db.Users
+                .Include(u => u.Profile)
+                .Include(u => u.Role)
+                .ToList();
+
             Users.Clear();
             foreach (var user in users)
             {

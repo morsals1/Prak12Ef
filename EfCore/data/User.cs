@@ -16,7 +16,9 @@ namespace EfCore.data
         private string _email;
         private string _password;
         private string _createdAt;
-
+        private UserProfile _profile;
+        private int _roleId;
+        private Role _role;
 
         public int Id
         {
@@ -52,6 +54,24 @@ namespace EfCore.data
         {
             get => _createdAt;
             set => SetProperty(ref _createdAt, value);
+        }
+
+        public UserProfile Profile
+        {
+            get => _profile;
+            set => SetProperty(ref _profile, value);
+        }
+
+        public int RoleId
+        {
+            get => _roleId;
+            set => SetProperty(ref _roleId, value);
+        }
+
+        public Role Role
+        {
+            get => _role;
+            set => SetProperty(ref _role, value);
         }
     }
 }
